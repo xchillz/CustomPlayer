@@ -7,7 +7,7 @@ namespace customplayer\xchillz\player;
 use languages\xchillz\langs\Language;
 use pocketmine\Player;
 
-final class CustomPlayer extends Player
+abstract class CustomPlayer extends Player
 {
 
     /** @var Language */
