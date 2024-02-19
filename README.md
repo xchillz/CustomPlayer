@@ -2,3 +2,4 @@
 
 **Requirements:**
 - Do not use KitKB or any other plugin that modifies the PocketMine's player class
+- Use [LanguageAPI](https://github.com/xchillz/LanguageAPI/releases/latest) plugin
