@@ -6,6 +6,7 @@ namespace customplayer\xchillz\listener;
 
 use customplayer\xchillz\Loader;
 use customplayer\xchillz\player\CustomPlayer;
+use languages\xchillz\LanguageAPI;
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerPreLoginEvent;
 
@@ -20,7 +21,7 @@ final class PlayerPreLoginListener implements Listener
         /** @var CustomPlayer $player */
         $player = $event->getPlayer();
 
-        $player->setLanguage(Loader::getDefaultLanguage());
+        $player->setLanguage(LanguageAPI::getInstance()->getLanguageManager()->getDefaultLanguage());
     }
 
 }
