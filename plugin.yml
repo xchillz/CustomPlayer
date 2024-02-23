@@ -3,5 +3,5 @@ author: xChillz
 api: 2.0.0
 version: 1.0.0
 main: customplayer\xchillz\Loader
-softdepend:
+depend:
   - LanguageAPI
